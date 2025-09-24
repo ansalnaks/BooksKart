@@ -1,0 +1,546 @@
+.fulld{
+    padding: 0%;
+    margin: 0%;
+    height: 2000px;
+    
+}
+.full{
+   padding: 0%;
+   margin: 0%;
+   height: 500px;
+}
+.header{
+    width: 100%;
+    height: 75px;
+    display: flex;
+    box-shadow: 2px 3px 2px  gray;
+}
+/* .heading{
+    width: 100%;
+    height: 4%;
+    position: absolute;
+} */
+.sect1{
+   width: 20%;
+   height: 50%;
+   margin-left: 5%;
+   display: flex;
+}
+.sect2{
+   width: 30%;
+   height: 50%; 
+}
+/* .img{
+    width: 122%;
+    height: 115%;
+} */
+ .sect3{
+    width: 30%;
+    height: 50%;
+ }
+
+
+ .sect33{
+   
+  
+   font-size: 16px;
+   padding: 10px;
+   border: none;
+   width: 30%;
+   height: 50%;
+   cursor: pointer;
+   margin-top: -1%;
+}
+
+
+.dropdown{
+position: relative;
+width:95px;
+height: 30px;
+background-color:white;
+border-color:white;
+box-shadow: 1px white;
+margin-top: 3.8%;
+
+}
+.dropdown:hover{
+   background-color:  rgb(248, 119, 5);;
+}
+.dropdown-content{
+position: absolute;
+z-index: 1;
+min-width: 100px;
+box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+background-color: rgb(35, 134, 184);;
+
+}
+.dropdown-content a{
+text-decoration: none;
+display: block;
+color: white;
+}
+.dropdown-content a:hover{
+background-color: orange;
+}
+/* 
+ .loginbtn{
+   width:95px;
+   height: 30px;
+    margin-left:5%;
+     margin-top:3%;
+     background-color:white;
+      border-color:white;
+      box-shadow: 1px white;
+      cursor: pointer;
+ }
+ :hover.loginbtn{
+    background-color:  rgb(248, 119, 5);
+ } */
+  /* .bb{
+   background-color: rgb(194, 188, 188);
+  } */
+ .cart{
+    width:157%;
+    height:40%;
+     margin-top:13%;
+     margin-left: -322%;
+     background-color:white;
+      border-color:white;
+      box-shadow: 1px white;
+      cursor: pointer;
+      margin-top: 24%;
+ }
+ .bb{
+    color:  rgb(248, 119, 5);
+    font-size: 94%;
+ }
+ .kk{
+    font-size: 161%;
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    color: white;
+ }
+ /* .sect4{
+ 161
+ 94
+    width: 20%;
+    height: 50%;
+    color: rgb(190, 235, 243);
+ } */
+
+ .sect6{
+   width:30px;
+   height: 50px;
+ }
+ .wishlist{
+   width:270%;
+   height:59%;
+    margin-top:53%;
+    margin-left: -322%;
+    background-color:white;
+     border-color:white;
+     box-shadow: 1px white;
+     cursor: pointer;
+
+ }
+  .bodydisplay{
+   margin-top: 3%;
+   font-size: 16px;
+  }
+ 
+
+.ssnq.h3{
+   font-style: italic;
+}
+
+
+
+
+ /* Front page style */
+.homebody{
+   margin: 0%;
+   padding: 0%;
+   width: 100%;
+   
+}
+.content{
+   margin-top: 4% ;
+   display: flex;
+   flex-direction: column;
+   height: 30%;
+   /* background-color:  rgb(236, 126, 43);; */
+   margin-bottom: 2%;
+  
+   
+}
+.sliderf{
+   display: none;
+   transition: all 1.5s ease-in-out;
+   box-shadow: 1px 2px 1px 2px rgb(44, 40, 35);
+   display: flex;
+  margin-left: 2%;
+  margin-right: 2%;
+  
+  background: linear-gradient(to bottom,rgb(188, 139, 16),orange);
+}
+.imageslide{
+   width: 250px;
+   height: 250px;
+   padding-top: 2%;
+ 
+   margin-left: 6%;
+}
+.imageslide img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+  
+}
+
+.imgsc{
+   border-radius: 50%;
+}
+.ssnq h3{
+   font-style: italic;
+   font-family: cursive;
+   font-weight: lighter;
+   margin-top: 2px;
+   
+}
+.ssnq{
+   margin-bottom: 2%;
+   margin-left: 34%;
+   width: 55%;
+   height: 20%;
+   margin-top: -120px;
+   
+}
+.prev-btn, .next-btn {
+   position: absolute;
+   top: 50%;
+   transform: translateY(-10%);
+  
+   color: rgb(24, 24, 24);
+   border: none;
+   padding: 10px;
+   cursor: pointer;
+   font-size: 1rem;
+ }
+ 
+ .prev-btn {
+   left: 0;
+ }
+ 
+ .next-btn {
+   right: 0;
+ }
+
+  
+
+
+  /* front page display */
+.frontdis{
+   padding-top: 2%;
+}
+.ccd{
+   color: rgb(8, 7, 56);
+   cursor: pointer;
+}
+.ccd :hover{
+   background-color: rgb(229, 216, 199);
+}
+
+/* user account page */
+
+
+.useraccf{
+   padding: 0%;
+   margin: 0%;
+   height: 130%;
+   width: 100%;
+   padding-left: 2%;
+   padding-top: 2%;
+   display: flex;
+   background-color: rgb(251, 247, 247);
+   position: relative;
+}
+ .leftud{
+   width: 30%;
+   height: 190%;
+   border: 1px;
+   background-color: rgb(35, 134, 184);;
+   margin-left: 4%;
+   margin-top: 2%;
+   color: white;
+}
+.mc{
+   width: 90%;
+   height:2%;
+   margin-left: 4%; 
+}
+.ai{
+   width: 90%;
+   height:2%; 
+   margin-left: 4%;
+}
+.mc:hover{
+   background-color: rgb(39, 115, 186);
+   opacity: 5s;
+}
+
+.ai:hover{
+   background-color: rgb(39, 115, 186);
+   opacity: 5s;
+}
+
+.rightud{
+   width: 55%;
+   height: 120%;
+   margin-left: 4%;
+   margin-top: 2%;
+   background-color: rgb(245, 245, 245);
+   position: relative;
+   display: block;
+   font-family:'Times New Roman', Times, serif;
+}
+.rightuda td{
+   font-weight: bolder;
+   font-size: 20px;
+}
+.rightudc{
+   position: absolute;
+   width: 80%;
+   height: 40%;
+   background-color: white;
+   margin-left: 10%;
+   margin-top: 4%;
+} 
+.rightuda{
+   position: absolute;
+   width: 80%;
+   height: 40%;
+   background-color: rgb(250, 249, 249);
+   margin-left: 10%;
+   margin-top: 47%;
+} 
+.myaccsty{
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.myaccsty h3{
+   margin-left: 5%;
+}
+.addetails{
+   width: 80%;
+   height: 40%;
+   background-color: rgb(251, 253, 252);
+   position:absolute;
+   margin-top: 79%;
+   margin-left: 10%;
+}
+
+.adminbody{
+   width: 100%;
+   height: 90%;
+  /* background-color: antiquewhite; */
+ margin-top: 0%;
+  position: absolute;
+}
+.adminf{
+   width: 100%;
+   height: 1000px;
+}
+.adminbd{
+   width: 40%;
+   height: 50%;
+  
+  box-shadow: 1px 2px solid orange;
+   margin-top: 4%;
+   margin-left: 5%;
+}
+
+.payf{
+   width: 100%;
+   height: 800px;
+  
+   position: relative;
+   margin-top: -10%;
+}
+
+.paymentsec{
+   margin-left: 25%;
+   margin-top: 15%;
+   border: 1px solid gray;
+   width:40%;
+   height: 70%;
+   background-color: #fff;
+   position: absolute;
+   box-shadow: 2px 3px 2px rgb(35, 134, 184);
+}
+
+.aiinfo h3{
+   margin-left: 2%;
+}
+
+
+.kkm{
+   transition: transform 0.3s ease-in-out;
+}
+
+.kkm :hover{
+   transform: translate(-5px) ;
+}
+
+
+.deledbtn{
+   margin-left: 12px;
+   color: white;
+   background-color: rgb(11, 11, 11);
+   padding: 8px,13px;
+}
+
+.buynowh :hover{
+   background-color: orangered;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.loginfull{
+   width:100%;
+   height: 700px;
+   background-color: rgb(239, 238, 238);
+   margin-top: 0%;
+   position: relative;
+  }
+  
+
+.loginfsec{
+   width: 60%;
+   height: 75%;
+   background-color: white;
+   margin-left: 17%;
+   margin-top: 4%;
+   display: flex;
+   position: absolute;
+}
+.leftlogin{
+   background-color: rgb(35, 134, 184);
+   color: white;
+   width: 40%;
+}
+.leftlogin h3,h1{
+  margin-left: 7%;
+  margin-top: 14%;
+}
+.rightlogin{
+   margin-top: 5%;
+   margin-left: 7%;
+   background-color: white;
+}
+
+.tablog td{
+   color: rgb(136, 168, 179);
+  
+}
+.lgbtn{
+   margin-top: 10%;
+   padding: 9px 32px;
+   background-color: rgb(248, 119, 5);
+   color: white;
+   cursor: pointer;
+   font-size: 15px;
+   font-weight: bold;
+   border-color: white;
+}
+.lgbtn:hover{
+   background-color: rgb(246, 86, 5);
+}
+
+
+.dropdown-item {
+   transition: background-color 0.3s ease, color 0.3s ease; /* Smooth transition for background and color */
+}
+
+.dropdown-item:hover {
+   background-color: rgba(255, 255, 255, 0.1); /* Change background color on hover */
+   color: #ffffff; /* Change text color on hover */
+}
+
+
+
+
+/* 
+details........... */
+
+
+/* ProductDetails.css */
+
+/* ProductDisplay.css */
+
+.product-card {
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   transition: transform 0.3s ease;
+}
+
+.product-card:hover {
+   transform: translateY(-5px);
+}
+
+.product-card .card-title {
+   font-weight: bold;
+   font-size: 1.2rem;
+}
+
+.product-card .card-subtitle {
+   font-size: 0.9rem;
+}
+
+.product-card .card-text {
+   font-size: 1rem;
+   color: #333;
+}
+
+.product-card button {
+   width: 48%;
+}
+.mmm :hover{
+   background-color: #333;
+}
+
+
+.product-card:hover .view-details-button {
+   opacity: 1;
+}
+
+.hhpro:hover{
+   opacity: 2;
+}
+.custom-btn {
+   transition: background-color 0.3s ease; 
+   border-color: "gray";
+   
+}
+
+.custom-btn:hover {
+   background-color: gray !important; 
+   color: white;
+  
+}
+
+.footer {
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width: 100%;
+   background-color: #f8f9fa; 
+   padding: 10px;
+}
